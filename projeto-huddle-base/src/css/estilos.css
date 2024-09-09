@@ -76,6 +76,10 @@ body {
     margin-right: 100px;
 }
 
+.footer .social a:hover {
+    color: rgb(207, 88, 223);
+}
+
 .footer .social a {
     font-size: 20px;
     color: white;
@@ -86,4 +90,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-register:hover {
+    background-color: rgb(207, 88, 223);
 }
