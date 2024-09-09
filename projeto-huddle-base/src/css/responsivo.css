@@ -1,0 +1,39 @@
+@media (max-width: 425px) {
+    .header img {
+        width: 200px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container .main-info {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .main-container .main-info h2 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    .main-container .main-info p {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .main-container .main-info .btn-register {
+        align-self: center;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .footer .social {
+        margin-right: 0;
+    }
+}
